@@ -1,24 +1,3 @@
-# <center>LongYinStudio</center>
-测试
+# 这个项目是自己网站导航的源码
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img  src="http://www.longyinstudio.cn/images/longyinstudio.jpg" width="24px" height="24px">[<font face="黑体" size=6>龙吟工作室官网</font>](http://www.longyinstudio.cn/)
+## [龙吟工作室网址：www.longyinstudio.cn](http://www.longyinstudio.cn/)
