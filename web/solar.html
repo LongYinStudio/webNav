@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>太阳系</title>
+    <link rel="shortcut icon" href="../images/solaricon.ico">
+    <style>
+        span {
+          font-family: 'Microsoft YaHei';
+          font-size: 24px;
+          color: #572adc;
+          background: linear-gradient(40deg, #2812da 0%, #e82aa3 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+        }
+      </style>
+</head>
+<body style="display: contents;">
+  <div>
+    <a target="_blank" href="https://baike.baidu.com/item/%E5%A4%AA%E9%98%B3%E7%B3%BB/173281?fr=aladdin">
+    <img usemap="#solarMap" src="../images/solar.jpg"  alt="获取图片失败"></img>
+    </a>
+  </div>
+    <span>点击其余图片部分则会转到有关太阳系的描述</span>
+    <map name="solarMap" id="solarMap">
+        <area shape="rect" coords="2,56,42,180" target="_blank" href="https://baike.baidu.com/item/%E5%A4%AA%E9%98%B3/24010?fr=aladdin" alt="获取太阳资料失败">
+        <area shape="rect" coords="50,108,70,224" target="_blank" href="https://baike.baidu.com/item/%E6%B0%B4%E6%98%9F/135917?fr=aladdin" alt="获取水星资料失败">
+        <area shape="rect" coords="76,101,113,229" target="_blank" href="https://baike.baidu.com/item/%E9%87%91%E6%98%9F/19410" alt="获取金星资料失败">
+        <area shape="rect" coords="124,102,159,226" target="_blank" href="https://baike.baidu.com/item/%E5%9C%B0%E7%90%83/6431?fr=aladdin" alt="获取地球资料失败">
+        <area shape="rect" coords="173,104,204,225" target="_blank" href="https://baike.baidu.com/item/%E7%81%AB%E6%98%9F/5627?fr=aladdin" alt="获取火星资料失败">
+        <area shape="rect" coords="226,79,309,230" target="_blank" href="https://baike.baidu.com/item/%E6%9C%A8%E6%98%9F/222105?fr=aladdin" alt="获取木星资料失败">
+        <area shape="rect" coords="336,91,406,231" target="_blank" href="https://baike.baidu.com/item/%E5%9C%9F%E6%98%9F/136354?fr=aladdin" alt="获取土星资料失败"> 
+        <area shape="rect" coords="438,95,495,236" target="_blank" href="https://baike.baidu.com/item/%E5%A4%A9%E7%8E%8B%E6%98%9F/21805?fr=aladdin" alt="获取天王星资料失败">
+        <area shape="rect" coords="525,93,580,243" target="_blank" href="https://baike.baidu.com/item/%E6%B5%B7%E7%8E%8B%E6%98%9F/30351?fr=aladdin" alt="获取海王星资料失败">
+    </map>
+    <script type="text/javascript">    /*7Core-CN - 网页鼠标点击特效（爱心）*/    !function (e, t, a) {function r() {for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e].y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" + s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");requestAnimationFrame(r)}function n() {var t = "function" == typeof e.onclick && e.onclick;e.onclick = function (e) {t && t(), o(e)}}function o(e) {var a = t.createElement("div");a.className = "heart", s.push({el: a,x: e.clientX - 5,y: e.clientY - 5,scale: 1,alpha: 1,color: c()}), t.body.appendChild(a)}function i(e) {var a = t.createElement("style");a.type = "text/css";try {a.appendChild(t.createTextNode(e))} catch (t) {a.styleSheet.cssText = e}t.getElementsByTagName("head")[0].appendChild(a)}function c() {return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"}var s = [];e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) {setTimeout(e, 1e3 / 60)}, i(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"), n(), r()}(window, document);</script>
+</body>
+</html>

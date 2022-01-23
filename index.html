@@ -1,0 +1,180 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>龙吟工作室</title>
+	<meta charset="utf-8">
+	<meta name="baidu-site-verification" content="b9lOcChmbf">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<link rel="shortcut icon" href="images/head.jpg" />
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/noscript.css" />
+	<link rel="stylesheet" href="css/cs.css">
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<header id="header">
+			<div class="logo">
+				<img src="images/head.jpg" class="logo">
+			</div>
+			<div class="content">
+				<div class="inner">
+					<h1 class="head">龙吟分享</h1>
+					<p class="red_blue_text">龙吟工作室<br>
+					</p>
+				</div>
+			</div>
+			<nav>
+				<script type="text/javascript">
+					function duihua() {
+						alert("龙吟工作室欢迎你")
+					}
+				</script>
+				<ul>
+					<li><a class="cs" href="http://longyinstudio.tpddns.cn:8899/love/">表白墙</a></li>
+					<li><a class="cs" href="https://wpa.qq.com/msgrd?v=3&uin=1606776851&site=qq&menu=yes">QQ联系</a></li>
+					<li><a class="cs" href="http://longyinstudio.tpddns.cn:8899/liuyan/">留言板</a></li>
+					<li><a class="cs" href="web/solar.html">太阳系</a></li>
+					<li><a class="cs" href="markdown/index.html">在线MarkDown</a></li>
+
+				</ul>
+			</nav>
+		</header>
+		<footer id="footer">
+			©2019-2020 Longyinstudio.cn 版权所有
+			<br>
+			ICP证:<a href="https://beian.miit.gov.cn">蜀ICP备20023129号</a>
+			<!--<p class="copyright">© 2019 龙吟工作室</p>-->
+			<!-- 版权-->
+			<div style="width:300px;margin:0 auto; padding:20px 0;">
+				<img src="images/备案图标.png">
+				<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51132102000187"
+					style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src=""
+						style="float:left;" />
+					<p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px;">川公网安备 51132102000187号
+					</p>
+				</a>
+			</div>
+		</footer>
+	</div>
+	<div id="bg">
+	</div>
+	<script type="text/javascript">
+		/*7Core-CN - 网页鼠标点击特效（爱心）*/ ! function (e, t, a) {
+			function r() {
+				for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e]
+					.y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" +
+					s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale +
+					") rotate(45deg);background:" + s[e].color + ";z-index:99999");
+				requestAnimationFrame(r)
+			}
+
+			function n() {
+				var t = "function" == typeof e.onclick && e.onclick;
+				e.onclick = function (e) {
+					t && t(), o(e)
+				}
+			}
+
+			function o(e) {
+				var a = t.createElement("div");
+				a.className = "heart", s.push({
+					el: a,
+					x: e.clientX - 5,
+					y: e.clientY - 5,
+					scale: 1,
+					alpha: 1,
+					color: c()
+				}), t.body.appendChild(a)
+			}
+
+			function i(e) {
+				var a = t.createElement("style");
+				a.type = "text/css";
+				try {
+					a.appendChild(t.createTextNode(e))
+				} catch (t) {
+					a.styleSheet.cssText = e
+				}
+				t.getElementsByTagName("head")[0].appendChild(a)
+			}
+
+			function c() {
+				return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
+			}
+			var s = [];
+			e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e
+				.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) {
+					setTimeout(e, 1e3 / 60)
+				}, i(
+					".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"
+					), n(), r()
+		}(window, document);
+	</script>
+	<script src="js/jquerymin.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/util.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript">
+		document.oncontextmenu = function (t) {
+			window.event && (t = window.event);
+			try {
+				var e = t.srcElement;
+				return "INPUT" == e.tagName && "text" == e.type.toLowerCase() || "TEXTAREA" == e.tagName ? !0 : !1
+			} catch (n) {
+				return !1
+			}
+		}, document.onpaste = function (t) {
+			window.event && (t = window.event);
+			try {
+				var e = t.srcElement;
+				return "INPUT" == e.tagName && "text" == e.type.toLowerCase() || "TEXTAREA" == e.tagName ? !0 : !1
+			} catch (n) {
+				return !1
+			}
+		}, document.oncopy = function (t) {
+			window.event && (t = window.event);
+			try {
+				var e = t.srcElement;
+				return "INPUT" == e.tagName && "text" == e.type.toLowerCase() || "TEXTAREA" == e.tagName ? !0 : !1
+			} catch (n) {
+				return !1
+			}
+		}, document.oncut = function (t) {
+			window.event && (t = window.event);
+			try {
+				var e = t.srcElement;
+				return "INPUT" == e.tagName && "text" == e.type.toLowerCase() || "TEXTAREA" == e.tagName ? !0 : !1
+			} catch (n) {
+				return !1
+			}
+		}, document.onselectstart = function (t) {
+			window.event && (t = window.event);
+			try {
+				var e = t.srcElement;
+				return "INPUT" == e.tagName && "text" == e.type.toLowerCase() || "TEXTAREA" == e.tagName ? !0 : !1
+			} catch (n) {
+				return !1
+			}
+		};
+	</script>
+	<audio autoplay>
+	</audio>
+	<!-- 百度统计 -->
+	<script>
+		var _hmt = _hmt || [];
+		(function () {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?cfe185d695566c650a9c5ade1f144563";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+
+
+
+</body>
+
+</html>
